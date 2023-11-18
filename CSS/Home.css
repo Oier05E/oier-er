@@ -1,0 +1,109 @@
+/* Dokumentu osoari buruzko estilo orokorra */
+body {
+    font-family: 'Arial', sans-serif; /* Letren familia ezarri dokumentu osoan */
+    margin: 0; /* Lehenetsi marjina kentzen du */
+    padding: 0; /* Padding-a kentzen du */
+    background-color: #f4f4f4; /* Hitzaren atzekalde kolorea ezarri */
+    color: #333; /* Testuaren kolorea ezarri */
+}
+
+/* Goiburuko ataleko estiloa */
+header {
+    background-color: #3498db; /* Ataleko atzekaldearen kolorea ezarri */
+    color: white; /* Goiburuko testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu */
+    padding: 1em; /* Goiburuko atalean padding-a gehitu */
+}
+
+img {
+    width: 200px; /* Irudiaren zabalera egokitzen du */
+    height: auto; /* Irudiaren proportzioa mantentzen du */
+}
+
+/* Nabigazio-barreko estiloa */
+nav {
+    background-color: #333; /* Nabigazio-barreko atzekaldearen kolorea ezarri */
+    overflow: hidden; /* Nabigazio-barrean dauden floated elementuak garbitu */
+}
+
+/* Nabigazio loturen estiloa */
+nav a {
+    float: left; /* Nabigazio loturak ezkerrean kokatu */
+    display: block; /* Nabigazio loturak bloke elementuak bihurtu */
+    color: white; /* Nabigazio loturen lehenetsitako testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu nabigazio loturetan */
+    padding: 14px 16px; /* Nabigazio loturei padding-a gehitu */
+    text-decoration: none; /* Azpimarrak kentzen ditu nabigazio loturak */
+}
+
+/* Nabigazio loturak gainbegiratzen daudenean estiloa */
+nav a:hover {
+    background-color: #ddd; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+    color: black; /* Gainbegiratzen denean testuaren kolorea ezarri */
+}
+
+/* Dropdown menua */
+.dropdown {
+    float: left; /* Ezkerrean kokatu dropdown-a */
+    overflow: hidden; /* Elementuak barnean mantentzeko */
+}
+
+/* Dropdown botoia */
+.dropdown .dropbtn {
+    font-size: 16px; /* Testuaren tamaina ezarri */
+    border: none; /* Ertzarik ez ezarri */
+    outline: none; /* Eremu kontornoa kendu */
+    color: white; /* Testuaren kolorea ezarri */
+    padding: 14px 16px; /* Padding-a gehitu */
+    background-color: inherit; /* Atzekaldearen kolorea mantendu */
+    font-family: inherit; /* Letren familia mantendu */
+    margin: 0; /* Marjina kendu */
+}
+
+/* Dropdown edukia */
+.dropdown-content {
+    display: none; /* Edozein edukiak ez erakutsi hasieran */
+    position: absolute; /* Absolutu posizioa ezarri */
+    background-color: #333; /* Atzekaldearen kolorea ezarri */
+    min-width: 160px; /* Zabalera ezarri */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Itzala gehitu */
+    z-index: 1; /* Z-indexa ezarri */
+}
+
+/* Dropdown edukiko loturak */
+.dropdown-content a {
+    float: none; /* Nabigazioa egokitzea desgaitu */
+    color: white; /* Testuaren kolorea ezarri */
+    padding: 12px 16px; /* Padding-a gehitu */
+    text-decoration: none; /* Azpimarrak kendu */
+    display: block; /* Bloke elementuak bihurtu */
+    text-align: left; /* Testua ezkerrean kokatu */
+}
+
+/* Dropdown edukiko loturak gainbegiratzen denean */
+.dropdown-content a:hover {
+    background-color: #ddd; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+    color: black; /* Gainbegiratzen denean testuaren kolorea ezarri */
+}
+
+/* Dropdown menua gainbegiratzen denean */
+.dropdown:hover .dropdown-content {
+    display: block; /* Gainbegiratzen denean dropdown edukia erakutsi */
+}
+
+/* Eduki nagusiaren atalaren estiloa */
+section {
+    padding: 20px; /* Eduki nagusiaren atalean padding-a gehitu */
+    text-align: justify; /* Testua erdian kokatu eduki nagusiaren atalean */
+}
+
+/* Azpi-footerraren kokatutako estiloa */
+footer {
+    position: fixed; /* Posizio finkoa ezarri */
+    bottom: 0; /* Azpi-footerra ezarri, orriaren behe aldean */
+    width: 100%; /* Orriaren zabaleran banatu */
+    background-color: #333; /* Azpi-footerra kokatutako atzekaldearen kolorea ezarri */
+    color: white; /* Azpi-footerra kokatutako testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu Azpi-footerrean */
+    padding: 1em; /* Azpi-footerrari padding-a gehitu */
+}

@@ -1,0 +1,208 @@
+      /* Dokumentuaren estiloa */
+body {
+    font-family: 'Arial', sans-serif; /* Letren familia ezarri dokumentuan */
+    margin: 0; /* Lehenetsi marjina kentzen du */
+    padding: 0; /* Padding-a kendu */
+    background-color: #3498db; /* Atzekaldearen kolorea ezarri */
+    color: White; /* Testuaren kolorea ezarri */
+}
+
+/* Goiburuko atalaren estiloa */
+header {
+    background-color: #3498db; /* Ataleko atzekaldearen kolorea ezarri */
+    color: white; /* Goiburuko testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu */
+    padding: 1em; /* Goiburuko atalean padding-a gehitu */
+}
+
+img {
+    width: 200px; /* Irudiaren zabalera egokitzen du */
+    height: auto; /* Irudiaren proportzioa mantentzen du */
+}
+
+/* Sekzioaren estiloa */
+section {
+    display: flex; /* Flebox erabiliz elementuak banatu */
+    justify-content: space-around; /* Tartean espazio berdina mantentzeko */
+    flex-wrap: wrap; /* Aldaketak hobeto erakutsi */
+    padding: 20px; /* Padding-a gehitu sekzioan */
+}
+
+/* Produktuen estiloa */
+.product {
+    background-color: #fff; /* Produktuen atzekaldearen kolorea ezarri */
+    border: 1px solid #ddd; /* Ertza ezarri */
+    border-radius: 5px; /* Irtengoaren ertza biribildu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Itzala gehitu */
+    padding: 15px; /* Padding-a gehitu */
+    margin: 15px; /* Marjinak gehitu */
+    width: 300px; /* Zabalera ezarri */
+    transition: transform 0.3s ease-in-out; /* Aldaketak animatuz */
+}
+
+/* Produktuaren gainean egon denean estiloa */
+.product:hover {
+    transform: scale(1.05); /* Gainbegiratzen denean tamaina handitu */
+}
+
+/* Produktuaren goiburuko testuaren estiloa */
+.product h3 {
+    color: #3498db; /* Goiburuko testuaren kolorea ezarri */
+}
+
+/* Produktuaren testu nagusiaren estiloa */
+.product p {
+    color: #666; /* Testu nagusiaren kolorea ezarri */
+}
+
+/* Produktuaren prezioaren estiloa */
+.product span.price {
+    color: #3498db; /* Prezioaren kolorea ezarri */
+    font-weight: bold; /* Testu lodiagoa ezarri */
+}
+
+/* Produktuaren irudiren estiloa */
+.product img {
+    width: 100%; /* Zabalera 100% ezarri */
+    height: auto; /* Altuera automikoa ezarri */
+    border-radius: 5px; /* Irtengoaren ertza biribildu */
+    margin-bottom: 10px; /* Marjinak gehitu */
+}
+
+/* Produktuaren botoiaren estiloa */
+.product button {
+    background-color: #3498db; /* Botoiaren atzekaldearen kolorea ezarri */
+    color: white; /* Botoiaren testuaren kolorea ezarri */
+    padding: 10px; /* Padding-a gehitu */
+    border: none; /* Ertzarik ez ezarri */
+    border-radius: 3px; /* Irtengoaren ertza biribildu */
+    cursor: pointer; /* Kurtsorea erakutsi */
+}
+
+/* Produktuaren botoiaren gainbegiratzen denean estiloa */
+.product button:hover {
+    background-color: #3498db; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+}
+
+/* Kontakturako atalaren estiloa */
+.contact-section {
+    background-color: #3498db; /* Atzekaldearen kolorea ezarri */
+    color: white; /* Testuaren kolorea ezarri */
+    padding: 40px; /* Padding-a gehitu */
+    text-align: center; /* Testua erdian kokatu */
+}
+
+/* Formularioaren estiloa */
+form {
+    max-width: 500px; /* Zabalera muga ezarri */
+    margin: auto; /* Automatikoki kokatu formularioa */
+}
+
+/* Formularioaren input eta textarea elementuen estiloa */
+input, textarea {
+    width: 100%; /* Zabalera 100% ezarri */
+    padding: 10px; /* Padding-a gehitu */
+    margin-bottom: 15px; /* Marjinak gehitu */
+    border: 1px solid #ddd; /* Ertza ezarri */
+    border-radius: 4px; /* Irtengoaren ertza biribildu */
+    box-sizing: border-box; /* Paddinga eta ertzak kontuan hartu */
+}
+
+/* Formularioaren submit botoiaren estiloa */
+button[type="submit"] {
+    background-color: #fff; /* Botoiaren atzekaldearen kolorea ezarri */
+    color: #3498db; /* Botoiaren testuaren kolorea ezarri */
+    padding: 10px 20px; /* Padding-a gehitu */
+    border: none; /* Ertzarik ez ezarri */
+    border-radius: 3px; /* Irtengoaren ertza biribildu */
+    cursor: pointer; /* Kurtsorea erakutsi */
+}
+
+/* Formularioaren submit botoiaren gainbegiratzen denean estiloa */
+button[type="submit"]:hover {
+    background-color: #ddd; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+}
+
+/* Azpi-footerraren estiloa */
+footer {
+    position: fixed; /* Posizio finkoa ezarri */
+    bottom: 0; /* Azpi-footerra ezarri, orriaren behe aldean */
+    width: 100%; /* Horriaren zabaleran banatu */
+    background-color: #333; /* Azpi-footerra kokatutako atzekaldearen kolorea ezarri */
+    color: white; /* Azpi-footerra kokatutako testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu Azpi-footerrean */
+    padding: 1em; /* Azpi-footerrari padding-a gehitu */
+}
+
+/* ... (aurreko estiloak) ... */
+
+/* Nabigazio-barrearen estiloa */
+nav {
+    background-color: #333; /* Nabigazio-barrearen atzekaldearen kolorea ezarri */
+    overflow: hidden; /* Elementuak barnean mantentzeko */
+}
+
+        /* Nabigazio loturaren estiloa */
+nav a {
+    float: left; /* Lotura ezkerrean kokatu */
+    display: block; /* Lotura bloke elementu bihurtu */
+    color: white; /* Loturaren testuaren kolorea ezarri */
+    text-align: center; /* Testua erdian kokatu nabigazio loturetan */
+    padding: 14px 16px; /* Nabigazio loturei padding-a gehitu */
+    text-decoration: none; /* Azpimarrak kendu nabigazio loturetan */
+}
+
+/* Nabigazio loturaren gainbegiratzen denean estiloa */
+nav a:hover {
+    background-color: #ddd; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+    color: black; /* Gainbegiratzen denean testuaren kolorea ezarri */
+}
+
+/* Dropdown menua */
+.dropdown {
+    float: left; /* Ezkerrean kokatu dropdown-a */
+    overflow: hidden; /* Elementuak barnean mantentzeko */
+}
+
+/* Dropdown botoia */
+.dropdown .dropbtn {
+    font-size: 16px; /* Testuaren tamaina ezarri */
+    border: none; /* Ertzarik ez ezarri */
+    outline: none; /* Eremu kontornoa kendu */
+    color: white; /* Testuaren kolorea ezarri */
+    padding: 14px 16px; /* Padding-a gehitu */
+    background-color: inherit; /* Atzekaldearen kolorea mantentu */
+    font-family: inherit; /* Letren familia mantentu */
+    margin: 0; /* Marjina kendu */
+}
+
+/* Dropdown edukia */
+.dropdown-content {
+    display: none; /* Edozein edukiak ez erakutsi hasieran */
+    position: absolute; /* Absolutu posizioa ezarri */
+    background-color: #333; /* Atzekaldearen kolorea ezarri */
+    min-width: 160px; /* Zabalera ezarri */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Itzala gehitu */
+    z-index: 1; /* Z-indexa ezarri */
+}
+
+/* Dropdown edukiko loturak */
+.dropdown-content a {
+    float: none; /* Nabigazioa egokitzea desgaitu */
+    color: white; /* Testuaren kolorea ezarri */
+    padding: 12px 16px; /* Padding-a gehitu */
+    text-decoration: none; /* Azpimarrak kendu */
+    display: block; /* Bloke elementuak bihurtu */
+    text-align: left; /* Testua ezkerrean kokatu */
+}
+
+/* Dropdown edukiko loturak gainbegiratzen denean */
+.dropdown-content a:hover {
+    background-color: #ddd; /* Gainbegiratzen denean atzekaldearen kolorea ezarri */
+    color: black; /* Gainbegiratzen denean testuaren kolorea ezarri */
+}
+
+/* Dropdown menua gainbegiratzen denean */
+.dropdown:hover .dropdown-content {
+    display: block; /* Gainbegiratzen denean dropdown edukia erakutsi */
+}
